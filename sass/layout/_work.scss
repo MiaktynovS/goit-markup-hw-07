@@ -4,18 +4,18 @@
     flex-wrap: wrap;
 }
 
-.work-list {
+.work__list {
     display: flex;
     flex-wrap: wrap;
     column-gap: 30px;
 }
 
-.work-list-item {
+.work__item {
     position: relative;
     flex-basis: calc((100% - 60px) / 3);
 }
 
-.work-list-text {
+.work__text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,7 @@
     left: 0;
 }
 
-.list-text {
+.work__list-text {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;

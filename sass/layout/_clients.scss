@@ -3,13 +3,13 @@
     padding-bottom: 94px;
 }
 
-.clients-list {
+.clients__list {
     display: flex;
     flex-wrap: wrap;
     column-gap: 30px;
 }
 
-.clients-list-item {
+.clients__item {
     display: flex;
     justify-content: center;
 
@@ -24,7 +24,7 @@
 
 }
 
-.clients-list-link {
+.clients__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,12 +43,12 @@
     }
 }
 
-.clients-list-icon {
+.clients__icon {
     fill: #AFB1B8;
     transition: var(--transition-dur-and-func);
 
-    .clients-list-link:hover &,
-    .clients-list-link:focus & {
+    .clients__link:hover &,
+    .clients__link:focus & {
             fill: var(--accent-color);
         }
 }
