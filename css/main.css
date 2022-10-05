@@ -246,23 +246,17 @@ img {
   text-transform: uppercase;
 }
 
-.features {
+.features-section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.features__list {
+.features {
   display: flex;
   flex-wrap: wrap;
   column-gap: 30px;
 }
-
-.features__text {
-  padding-top: 30px;
-  width: 270px;
-}
-
-.features__img {
+.features__element-image {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -271,38 +265,38 @@ img {
   background: #F5F4FA;
   border-radius: 4px;
 }
-
-.features__list .features__title {
+.features__element-text {
+  padding-top: 30px;
+  width: 270px;
+}
+.features__element-text__title {
   color: var(--primary-text-color);
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-
-.features__title .features__description {
+.features__element-text__description {
   font-size: 14px;
   line-height: 1.71;
 }
 
-.work {
+.work-section {
   padding-bottom: 94px;
   display: flex;
   flex-wrap: wrap;
 }
 
-.work__list {
+.work {
   display: flex;
   flex-wrap: wrap;
   column-gap: 30px;
 }
-
-.work__item {
+.work__element {
   position: relative;
   flex-basis: calc((100% - 60px) / 3);
 }
-
-.work__text {
+.work__element-text {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -313,8 +307,7 @@ img {
   bottom: 0;
   left: 0;
 }
-
-.work__list-text {
+.work__element-text__title {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 14px;
@@ -324,19 +317,19 @@ img {
   color: var(--primary-white-color);
 }
 
-.team {
+.team-section {
   background-color: #F5F4FA;
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.team__list {
+.team {
   display: flex;
   flex-wrap: wrap;
   column-gap: 30px;
 }
 
-.team__item {
+.team__element {
   flex-basis: calc((100% - 90px) / 4);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
